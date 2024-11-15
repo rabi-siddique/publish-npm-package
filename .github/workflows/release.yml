@@ -36,13 +36,13 @@ jobs:
           echo "Configured Git user.email: $(git config --global user.email)"
 
       - name: Check if Email is Correct
-       run: |
-        if [[ "${{ env.GITHUB_EMAIL }}" == "rabisiddique27@gmail.com" ]]; then
-          echo "Email matches rabisiddique27@gmail.com"
-        else
-          echo "Email does not match"
-          exit 1 # Optional: fail the workflow if the email does not match
-        fi
+        run: |
+          if [[ "${{ env.GITHUB_EMAIL }}" == "rabisiddique27@gmail.com" ]]; then
+            echo "Email matches rabisiddique27@gmail.com"
+          else
+            echo "Email does not match"
+            exit 1 # Optional: fail the workflow if the email does not match
+          fi
 
 
 
