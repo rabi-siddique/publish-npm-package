@@ -87,3 +87,10 @@ This configuration does the following:
 - `after:bump`: A hook that runs after the version number is bumped in your project. For example, if the version changes from 1.0.0 to 1.1.0, this hook is triggered immediately afterward.
 
 - `npm run build`: The command executed by the `after:bump` hook. In this case, it runs the build script defined in your project's package.json.
+
+# Errors
+
+I encountered this error in CI while attempting to make a commit:
+![alt](./media/token.png)
+
+Initially, I suspected that my token lacked push access. This [Stack Overflow](https://stackoverflow.com/questions/70538793/remote-write-access-to-repository-not-granted-fatal-unable-to-access) thread provided a solution.
