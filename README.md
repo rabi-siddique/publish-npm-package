@@ -37,7 +37,7 @@ npm allows version downgrades. You can publish a lower version, such as `3.0.5`,
 
 # Release It
 
-`release-it` is a versatile tool for automating version management and package publishing workflows. It handles the version bumping, tagging, and publishing of your software projects.
+`release-it` is a tool for automating version management and package publishing workflows. It handles the version bumping, tagging, and publishing of your software projects.
 
 ## 1. Install release-it
 
