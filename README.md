@@ -23,7 +23,7 @@ This command explicitly sets the package to be public, allowing anyone to instal
 ## 3. Releasing a new version
 
 Attempting to publish the package without updating the version number in package.json will result in the following error:
-![403 Forbidden](./media/403.png)
+![403 Forbidden](media/403.png)
 
 As the error message says:
 **You cannot publish over the previously published version**
@@ -31,7 +31,7 @@ As the error message says:
 To successfully publish, increment the version number in `package.json` to a new value that differs from the previous release. This change ensures that npm recognizes it as a new version, allowing the publication to proceed without errors.
 
 You have the flexibility to choose any version number when publishing your package. For example, if your initial release was version `1.0.1`, you could choose to update it to `10.0.5` for a subsequent release:
-![Version](./media/version.png)
+![Version](media/version.png)
 
 npm allows version downgrades. You can publish a lower version, such as `3.0.5`, even after releasing a higher version like `10.0.5`, and it will still be processed successfully.
 
@@ -91,6 +91,6 @@ This configuration does the following:
 # Errors
 
 I encountered this error in CI while attempting to make a commit:
-![alt](./media/token.png)
+![alt](media/token.png)
 
 Initially, I suspected that my token lacked push access. This [Stack Overflow](https://stackoverflow.com/questions/70538793/remote-write-access-to-repository-not-granted-fatal-unable-to-access) thread provided a solution.
