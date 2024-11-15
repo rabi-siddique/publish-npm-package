@@ -19,3 +19,10 @@ npm publish --access public
 ```
 
 This command explicitly sets the package to be public, allowing anyone to install it without facing access restrictions.
+
+# 3. Releasing a new version
+
+Attempting to publish the package without updating the version number in package.json will result in the following error:
+![403 403 Forbidden](./media/image.png)
+
+To successfully publish, increment the version number in `package.json` to a new value that differs from the previous release. This change ensures that npm recognizes it as a new version, allowing the publication to proceed without errors.
