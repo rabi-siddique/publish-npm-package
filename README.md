@@ -87,16 +87,3 @@ This configuration does the following:
 - `after:bump`: A hook that runs after the version number is bumped in your project. For example, if the version changes from 1.0.0 to 1.1.0, this hook is triggered immediately afterward.
 
 - `npm run build`: The command executed by the `after:bump` hook. In this case, it runs the build script defined in your project's package.json.
-
-## 3. Add npm Authentication to release-it Configuration
-
-If you want to set the npm registry or token, update your release-it configuration in package.json:
-
-```bash
-"release-it": {
-  "npm": {
-    "publish": true,
-    "tokenRef": "NPM_TOKEN"
-  }
-}
-```
