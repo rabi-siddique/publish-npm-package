@@ -3,7 +3,6 @@
   "version": "3.17.4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "release": "release-it"
   },
   "release-it": {
@@ -14,7 +13,11 @@
       "push": true
     }
   },
-  "keywords": [],
+  "keywords": [
+    "first-package",
+    "testing",
+    "rabi-siddique"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
