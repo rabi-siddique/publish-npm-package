@@ -12,6 +12,9 @@
       "tagName": "v${version}",
       "tagAnnotation": "Release v${version}",
       "push": true
+    },
+    "github": {
+      "release": true
     }
   },
   "keywords": [
